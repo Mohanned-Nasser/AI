@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myApp.tensorflow.lite.examples.detection.SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/iv_notee"
+        android:layout_width="2000dp"
+        android:layout_height="2000dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg1" />
+
+
+
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="350dp"
+    android:layout_height="220dp"
+    app:cardBackgroundColor="#32a2a8"
+
+    app:cardCornerRadius="18dp"
+    android:layout_margin="10dp"
+    android:elevation="10dp"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    >
+
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/aldrich"
+
+        android:gravity="center"
+        android:text="Sign Language Translation System"
+        android:textColor='#fff'
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:translationY="-50dp" />
+
+    <ImageView
+        android:id="@+id/iv_note"
+        android:layout_width="156dp"
+        android:layout_height="129dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_noun_sign_language_2029098"
+        android:translationX="100dp"
+        android:translationY="100dp" />
+
+</androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
